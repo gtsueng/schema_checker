@@ -12,8 +12,8 @@ def check_files(script_path):
 
 def create_dummy_class(eachclass):
     eachclass_info = eachclass.split(":")
-    namespace = rangeid_info[0]
-    classname = rangeid_info[1]
+    namespace = eachclass_info[0]
+    classname = eachclass_info[1]
     dummy_dict = {
       "@id": eachclass,
       "@type": "rdfs:Class",
