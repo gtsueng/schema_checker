@@ -1,4 +1,5 @@
 ## Schema checker for DDE-compatibility
+#### Note that as of April, 2022, this repository is no longer needed/useful. Many of the issues caused by differences in the strictness of the DDE in validating schemas vs creating them have been addressed. This repository remains for archival purposes only.
 
 The Data Discovery Engine's Schema Playground is very strict when ingesting and displaying schemas, but more flexible when creating them. As a result, it is possible to use the Schema Playground to create a schema that would not be viewable in the playground's schema viewer.
 
