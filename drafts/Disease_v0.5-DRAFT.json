@@ -13,7 +13,7 @@
       "rdfs:comment": "an updated draft Disease profile including the 'conformsTo' property",
       "rdfs:label": "Disease",
       "rdfs:subClassOf": {
-        "@id": "bioschemasdrafts:Disease"
+        "@id": "schema:MedicalCondition"
       },
       "$validation": {
         "$schema": "http://json-schema.org/draft-07/schema#",
